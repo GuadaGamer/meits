@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menuinferior ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuinferior ul li a:hover {
+    text-decoration: underline;
+    text-align: center
+}
+
+.menuinferior ul li {
+    background-color: chocolate;
+}
+
+footer {
+    background-color: chocolate;
+}
+
+footer h3 {
+    text-align: center;
+    color: white;
+}
+
+.redess {
+    color: white;
+    padding-left: 15%;
+    font-size: 40px;
+}
+
+.col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#insta {
+    -webkit-text-fill-color: white;
+    font-size: 40px;
+    padding-left: 15%;
+}
+
+.cardx {
+    color: #000;
+    font-size: 40px;
+}
+
+.cardx:hover{
+    color:green;
+}
+
+#face:hover {
+    color: blue;
+}
+
+#whats:hover {
+    color: green;
+}
+
+#youtube:hover {
+    color: red;
+}
+
+#tiktok:hover {
+    color: black;  
+}
+
+#twiter:hover{
+    color: deepskyblue;
+}
+
+#insta:hover{
+        /* standard gradient background */
+  background: linear-gradient(red, blue);
+
+  /* clip informático */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

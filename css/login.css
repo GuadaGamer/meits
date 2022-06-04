@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    align-content: center;
+}
+a i{
+    font-size: 40px;
+    border-radius: 50%;
+    border-style: solid;
+    padding: 3px;
+    border-color: gainsboro;
+}
+
+a i:hover{
+    background: blue;
+    color: white;
+     border-color: blue;
+}
+
+a i:focus, a i:hover{
+    -webkit-animation: pulse 1s;
+    animation:pulse 1s;
+    box-shadow:0 0 0 2em rgba(255,255,255,0);
+}
+
+@-webkit-keyframes pulse{0%{box-shadow:0 0 var(--hover)}}
+@keyframes pulse{0%{box-shadow:0 0 var(--hover)}}
+
+i{
+    --color:#ef6eae;
+    --hover:#00276A}
+}
